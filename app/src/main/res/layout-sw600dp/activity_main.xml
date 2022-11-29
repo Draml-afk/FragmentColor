@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/portrait"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintHorizontal_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/big_fragment"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <FrameLayout
+            android:id="@+id/fragment_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="СИНИЙ"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/read"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_1"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="КРАСНЫЙ"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_2"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="ЖЕЛТЫЙ"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_3"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="ЧЁРНЫЙ"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_4"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="БЕЛЫЙ"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/brown"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_5"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="КОРИЧНЕВЫЙ"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_6"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="СЕРЫЙ"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/purple"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_7"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="ФИОЛЕТОВЫЙ"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/pink"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_8"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="РОЗОВЫЙ"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_9"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="ОРАНДЖЕВЫ"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/green"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_10"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="ЗЕЛЕНЫЙ"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/big_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/portrait"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

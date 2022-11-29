@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentCollor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="red">КРАСНЫЙ</string>
+    <string name="blue">СИНИЙ</string>
+    <string name="yellow">ЖЕЛТЫЙ</string>
+</resources>
